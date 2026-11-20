@@ -1,0 +1,16 @@
+{
+    "display_name": "LLMTR provider",
+    "author": "knowhy",
+    "version": "1.0.0",
+    "homePage": "https://github.com/knowhycodata/SillyTavern-LLMTR",
+    "js": "index.js",
+    "loading_order": 100,
+    "auto_update": true,
+    "hooks": {
+        "activate": "onActivate",
+        "enable": "onActivate",
+        "disable": "onDisable",
+        "delete": "onDisable",
+        "clean": "onDisable"
+    }
+}
